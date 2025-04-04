@@ -79,7 +79,7 @@ Great student`,
 const contentItems = ["technologies", "certifications", "projects", "experience", "education", "reviews", "technologies"];
 
 interface ContentProps {
-  onContentSelect: (key: string) => void;
+  onContentSelect: (key: keyof typeof contentData) => void;
 }
 
 export default function Content({ onContentSelect }: ContentProps) {
