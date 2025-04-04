@@ -1,0 +1,46 @@
+EDUCATION:
+WENTWORTH INSTITUTE OF TECHNOLOGY | Boston, MA Expected: Aug 2026
+Bachelor of Science in Computer Science
+Related Coursework: Algorithms, Data Structures, Databases, Network Programming, Discrete Math, Applications of AI,
+Operating Systems.
+SKILLS/CERTIFICATIONS:
+SOFTWARE: Eclipse, VSCode, Wireshark, Cisco Packet Tracer, Git, Node.js, Node-RED, IBM Cloud, Hugging Face, Docker
+LANGUAGES: Java, Python, C/C++, HTML/CSS, JavaScript, MATLAB, Bash shell, SQL/Oracle, JSON, LC-3
+OPERATING SYSTEMS: Windows, Linux/Unix, MacOS
+CERTIFICATIONS: IBM AI Developer Professional Certificate, IBM Combining Machine Learning and Rules for Cybersecurity,
+Enterprise Design Thinking Practitioner, Deep Learning Fundamentals
+PROJECTS:
+Voice Translation Assistant (Independent) JAN 2025 – JAN 2025
+• Developed a full-stack voice translation assistant using Watsonx and IBM Watson Speech Libraries, integrating speech-to-text
+and text-to-speech technologies for seamless real-time multilingual translation.
+• Designed a responsive frontend with HTML, CSS, and JavaScript, and implemented a Flask-based backend to create an AIpowered, user-friendly application for voice input processing and playback.
+Quantum Computing (Grovers Algorithm) (Group of 2) NOV 2024 – NOV 2024
+• Implemented Grover's Algorithm using IBM's Qiskit SDK on quantum hardware to demonstrate quantum efficiency in solving
+search problems, achieving quadratic speedup compared to classical search methods.
+• Explored real-world applications of quantum computing in cryptography, optimization, and machine learning, showcasing its
+potential to outperform classical algorithms in specific problem domains.
+Real-Time ISS & Astronaut Tracking and Visualization Tool (Independent) OCT 2024 – OCT 2024
+• Developed a dynamic system integrating RESTful APIs through Node-RED for live ISS location and astronaut data, enabling
+interactive real-time tracking and interaction with chatbot powered by chatgpt-4o.
+• Visualized the ISS location on a world map with a recognizable icon, color-coding, and a responsive chatbot.
+Technologies: Node-RED, JavaScript, JSON, RESTful APIs, real-time data processing, world map visualization. [Demo]
+Watch Party Application (Group of 3) OCT 2023 – NOV 2023
+• Designed and implemented a Watch Party application, enabling users to watch videos synchronously and interact via chat
+using multiple languages including Python, JavaScript, HTML and CSS.
+• Used modern frameworks such as Flask, Socket IO and Jinja to implement all the programs feature.
+EXPERIENCE:
+RICOH USA, INC | Boston, MA JUN 2024 – AUG 2024
+Customer Engineer Intern
+• Developed technical documentation and performed network troubleshooting (TCP/IP, DNS, DHCP, Wi-Fi).
+• Managed server room operations, including the configuration and maintenance of Cisco servers, ensuring optimal network
+performance and security.
+• Collaborated with K-12 clients to manage and maintain technology for students and teachers, ensuring client satisfaction.
+Amazon | Marlborough, MA AUG 2023 – SEP 2023
+Associate
+• Demonstrated exceptional efficiency in managing warehouse packages and sorting procedures, ensuring optimal organization
+and timely order fulfillment.
+• Gained understanding of Amazon fulfillment and the robotics portion of Amazon’s operations.
+Lifetime | Framingham, MA JUL 2021 – JUL 2023
+Associate
+• Trained new café hires on food preparation, customer service, and opening/closing procedures.
+• Assisted with inventory management and ordering of supplies to maintain proper stock levels.
