@@ -137,7 +137,7 @@ export default function Content({ onContentSelect }: ContentProps) {
     onContentSelect(key);
   };
 
-  const renderButton = (key: string, index: number, groupId: number) => (
+  const renderButton = (key: keyof typeof contentData, index: number, groupId: number) => (
     <button
       key={`btn-${groupId}-${index}`}
       onClick={(e) => handleButtonClick(key, e)}
