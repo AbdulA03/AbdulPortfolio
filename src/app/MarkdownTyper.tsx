@@ -14,14 +14,12 @@ const MarkdownTyper: React.FC<MarkdownTyperProps> = ({
 }) => {
   const [displayedText, setDisplayedText] = useState('');
   const [isTyping, setIsTyping] = useState(false);
-  const [typingComplete, setTypingComplete] = useState(false);
 
   useEffect(() => {
     if (!content) return;
     
     // Reset states when content changes
     setIsTyping(true);
-    setTypingComplete(false);
     
     if (isGenerating) {
       setDisplayedText("Generating...");
@@ -46,7 +44,6 @@ const MarkdownTyper: React.FC<MarkdownTyperProps> = ({
         } else {
           clearInterval(typingInterval);
           setIsTyping(false);
-          setTypingComplete(true);
         }
       }, typingSpeed);
       
