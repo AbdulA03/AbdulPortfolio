@@ -76,7 +76,15 @@ Great student`,
 - **Containerization:** Docker`
 };
 
-const contentItems = ["technologies", "certifications", "projects", "experience", "education", "reviews", "technologies"];
+const contentItems: (keyof typeof contentData)[] = [
+  "technologies",
+  "certifications",
+  "projects",
+  "experience",
+  "education",
+  "reviews",
+  "technologies"
+];
 
 interface ContentProps {
   onContentSelect: (key: keyof typeof contentData) => void;
@@ -128,7 +136,7 @@ export default function Content({ onContentSelect }: ContentProps) {
     dragStartXRef.current = null;
   };
 
-  const handleButtonClick = (key: string, event: React.MouseEvent) => {
+  const handleButtonClick = (key: keyof typeof contentData, event: React.MouseEvent) => {
     // Prevent button click if a drag was detected.
     if (wasDraggingRef.current) {
       event.preventDefault();
@@ -136,6 +144,7 @@ export default function Content({ onContentSelect }: ContentProps) {
     }
     onContentSelect(key);
   };
+  
 
   const renderButton = (key: keyof typeof contentData, index: number, groupId: number) => (
     <button
@@ -151,7 +160,7 @@ export default function Content({ onContentSelect }: ContentProps) {
       {key === "reviews" && <Star className="w-4 h-4" />}
       {key.charAt(0).toUpperCase() + key.slice(1)}
     </button>
-  );
+  );  
 
   return (
     <div
